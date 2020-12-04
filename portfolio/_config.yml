@@ -9,7 +9,7 @@ author:
 street_address: 73 Buccleugh 
 city: Dunedin
 state: Otago
-zip_code: 55555
+zip_code: 9010
 country: New Zealand
 phone: 027-780-4199
 
@@ -20,14 +20,14 @@ tiles-count: 6
 # social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+github_url: https://github.com/SamHewitt
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://www.instagram.com/sam_itnz/
+linkedin_url: https://www.linkedin.com/in/sam-hewitt-400b9a184/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+
 
 # build settings
 markdown: kramdown
