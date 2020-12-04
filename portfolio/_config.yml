@@ -1,12 +1,12 @@
 # site settings
-title: Sam Hewitt
-subtitle: Developer
-email: sjhewitt123@hotmail.com
+title: Forty
+subtitle: by HTML5 UP
+email: youremailaddress@gmail.com
 description: Freelance Software Developer
-baseurl: " " # the subpath of your site, e.g. /blog
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 73 Buccleugh Street
+street_address: 73 Buccleugh 
 city: Dunedin
 state: Otago
 zip_code: 55555
