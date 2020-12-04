@@ -1,17 +1,17 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+title: Sam Hewitt
+subtitle: Developer
+email: sjhewitt123@hotmail.com
+description: Freelance Software Developer
+baseurl: " " # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
+street_address: 73 Buccleugh Street
+city: Dunedin
+state: Otago
 zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+country: New Zealand
+phone: 027-780-4199
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
