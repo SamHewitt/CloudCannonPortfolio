@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Sam'
+landing-title: 'Jekyll-based CloudCannon web pages'
 description: null
 image: null
 author: null
