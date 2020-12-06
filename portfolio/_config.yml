@@ -1,6 +1,6 @@
 # site settings
-title: Site
-subtitle: by Sam Hewitt
+title: Home
+subtitle: 
 email: samuel.hewittnz@gmail.com
 description: Freelance Software Developer
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
