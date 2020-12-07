@@ -2,7 +2,8 @@ nav.main-nav ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	float: right;
+    float: right;
+    background-color: #05386B;
 }
 
 nav.main-nav li,
@@ -23,11 +24,11 @@ body {
     margin: 0;
     font-size: 20px;
     color: #575757;
-    background-color: #777777;
+    background-color: #379683;
     font-family: 'JetBrains Mono', monospace;
     
 }  
 
 a {
-	color: rgb(0, 0, 0);
+	color: #EDF5E1;
 }
