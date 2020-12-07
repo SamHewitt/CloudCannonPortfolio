@@ -1,3 +1,7 @@
 a.active {
     color: #FFE000;
   }
+
+.body {
+    background-color: aquamarine;
+}  
