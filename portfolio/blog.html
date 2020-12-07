@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Blog
 navigation_weight: 2
 ---
@@ -14,13 +14,6 @@ navigation_weight: 2
 </head>
 <body>
     <h2>Blog page</h2>
-    <div class="container">
-        <h2 class="spacing">{{ page.title }}</h2>
-    
-        <div class="blog-post spacing">
-            <p class="summary">{{ page.category }}<span class="date">{{ page.date | date: '%B %d, %Y' }}</span></p>
-            {{ content }}
-        </div>
-    </div> 
+
 </body>
 </html>
