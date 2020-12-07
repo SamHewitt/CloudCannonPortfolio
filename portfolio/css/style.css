@@ -27,3 +27,7 @@ body {
     font-family: 'JetBrains Mono', monospace;
     
 }  
+
+a {
+	color: #000;
+}
