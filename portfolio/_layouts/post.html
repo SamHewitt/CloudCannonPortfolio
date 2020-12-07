@@ -1,9 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">    
+</head>
+<body>
+    <div class="container">
+        <nav class="main-nav">
+            <ul>
+                {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+                {% for p in navigation_pages %}
+                    {% if p.navigation_weight %}
+                        <li>
+                            <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+                                {{ p.title }}
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>    
+    <div class="container">
+        <h2 class="spacing">{{ page.title }}</h2>
+    
+        <div class="blog-post spacing">
+            <p class="summary">{{ page.category }}<span class="date">{{ page.date | date: '%B %d, %Y' }}</span></p>
+            {{ content }}
+        </div>
+    </div> 
+</body>
+</html> 
 
-<div class="container">
-	<h2 class="spacing">{{ page.title }}</h2>
 
-	<div class="blog-post spacing">
-		<p class="summary">{{ page.category }}<span class="date">{{ page.date | date: '%B %d, %Y' }}</span></p>
-		{{ content }}
-	</div>
-</div>
