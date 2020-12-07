@@ -23,11 +23,11 @@ body {
     margin: 0;
     font-size: 20px;
     color: #575757;
-    background-color: #e4b73c;
+    background-color: #777777;
     font-family: 'JetBrains Mono', monospace;
     
 }  
 
 a {
-	color: #000;
+	color: rgb(0, 0, 0);
 }
