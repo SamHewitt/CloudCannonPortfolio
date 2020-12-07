@@ -1,7 +1,29 @@
+nav.main-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+
+nav.main-nav li,
+nav.main-nav a {
+	display: inline-block;
+}
+
+nav.main-nav li a {
+	padding: 10px;
+}
+
 a.active {
     color: #FFE000;
   }
 
-.body {
-    background-color: aquamarine;
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: #575757;
+    background-color: #ffffff;
+    font-family: 'JetBrains Mono', monospace;
+    
 }  
