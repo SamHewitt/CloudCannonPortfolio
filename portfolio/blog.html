@@ -6,11 +6,15 @@ navigation_weight: 2
 
 
   {% for post in site.posts %}
+
+
   <ul>
   <li>{{post.title}}</li>     
   <li>{{post.date}}</li> 
   <li>{{post.excerpt}}</li> 
   <a href="{{ post.url }}">Read more</a>
   </ul>
+
+
 {% endfor %}
 
