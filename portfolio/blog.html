@@ -4,15 +4,13 @@ title: Blog
 navigation_weight: 2
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <h2>Blog page</h2>
-</body>
-</html>
+<h2>Blog page</h2>
+  {% for post in site.posts %}
+  <ul>
+  <li>{{post.title}}</li>     
+  <li>{{post.date}}</li> 
+  <li>{{post.excerpt}}</li> 
+  <a href="{{ post.url }}">Read more</a>
+  </ul>
+{% endfor %}
+
