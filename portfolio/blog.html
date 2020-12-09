@@ -3,18 +3,15 @@ layout: default
 title: Blog
 navigation_weight: 2
 ---
-
-
+<section class="homeBlog">
   {% for post in site.posts %}
-
-
   <ul>
+  <li><img src="{{post.image}}" class="postImage"/></li>
   <li>{{post.title}}</li>     
   <li>{{post.date}}</li> 
   <li>{{post.excerpt}}</li> 
-  <a href="{{ post.url }}">Read more</a>
+  <a href="{{ post.url }}" class="readMore">Read more</a>
+  <br>
   </ul>
-
-
-{% endfor %}
-
+  {% endfor %}
+</section>
