@@ -59,4 +59,24 @@ div.small-container {
        justify-content: flex-end;
    }
 
-   
+.logoImage {
+ width: 5%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.homeBlog {
+    display: block;
+    margin-right: auto;
+    max-width: 40%;
+    padding-left: 25%;
+    
+}
+
+.readMore {
+    border-style: solid ;
+    border-width: 1px;
+    padding: 0.2%;
+    
+}

@@ -3,14 +3,27 @@ layout: default
 title: Home
 navigation_weight: 1
 ---
-
-
+<div><img src="./images/siteLogo.png" class="logoImage"></div>
+<section class="hero">
 	<div class="small-container">
-		<h4>Jekyll-based CloudCannon site </h4>
-        <p class="sub-text">Sam Hewitt Student Web Developer</p>
+		<h4>Sam Hewitt Web Development</h4>
+
         <!-- <img src="./images/me.jpg" height="200px" alt="me" style="border-radius: 200px;"> -->
 	</div>
-
+</section>
     <section class="sidebar">
         <!-- <img src="./images/me.jpg" height="200px" alt="me"> -->
     </section>
+
+
+<section class="homeBlog">
+    {% for post in site.posts %}
+    <ul>
+    <li>{{post.image}}</li>
+    <li>{{post.title}}</li>     
+    <li>{{post.date}}</li> 
+    <li>{{post.excerpt}}</li> 
+    <a href="{{ post.url }}">Read more</a>
+    </ul>
+    {% endfor %}    
+</section>    
