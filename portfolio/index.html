@@ -19,11 +19,12 @@ navigation_weight: 1
 <section class="homeBlog">
     {% for post in site.posts %}
     <ul>
-        <li><img src="{{post.image}}"/></li>
+    <li><img src="{{post.image}}" class="postImage"/></li>
     <li>{{post.title}}</li>     
     <li>{{post.date}}</li> 
     <li>{{post.excerpt}}</li> 
-    <a href="{{ post.url }}">Read more</a>
+    <a href="{{ post.url }}" class="button"><span>Read more</span></a>
     </ul>
+    <br>
     {% endfor %}    
 </section>    
