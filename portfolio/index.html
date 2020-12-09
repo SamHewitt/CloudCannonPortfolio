@@ -17,14 +17,16 @@ navigation_weight: 1
 
 
 <section class="homeBlog">
-    {% for post in site.posts %}
     <ul>
-    <li><img src="{{post.image}}" class="postImage"/></li>
-    <li>{{post.title}}</li>     
-    <li>{{post.date}}</li> 
-    <li>{{post.excerpt}}</li> 
-    <a href="{{ post.url }}" class="button"><span>Read more</span></a>
-    </ul>
+    {% for post in site.posts %}
+    <br>
+    <h2>{{post.title}}</h2>
+    <li><img src="{{post.image}}" class="postImage"/>
+    <h4>{{post.date}}</h4>
+    <p>{{post.excerpt}}</p>
+    <a href="{{ post.url }}" class="button"><span>Read more</span></a> 
+    </li>
     <br>
     {% endfor %}    
+</ul>
 </section>    
