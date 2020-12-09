@@ -4,14 +4,16 @@ title: Blog
 navigation_weight: 2
 ---
 <section class="homeBlog">
-  {% for post in site.posts %}
-  <ul>
-  <li><img src="{{post.image}}" class="postImage"/></li>
-  <li>{{post.title}}</li>     
-  <li>{{post.date}}</li> 
-  <li>{{post.excerpt}}</li> 
-  <a href="{{ post.url }}" class="readMore">Read more</a>
-  <br>
-  </ul>
-  {% endfor %}
-</section>
+    <ul>
+    {% for post in site.posts %}
+   
+    <li><h2>{{post.title}}</h2>
+    <img src="{{post.image}}" class="postImage"/>
+    <h4>{{post.date}}</h4>
+    <p>{{post.excerpt}}</p>
+    <a href="{{ post.url }}" class="button"><span>Read more</span></a> 
+    </li>
+    <br>
+    {% endfor %}    
+</ul>
+</section>   

@@ -3,7 +3,7 @@ layout: default
 title: Home
 navigation_weight: 1
 ---
-<div><img src="./images/siteLogo.png" class="logoImage"></div>
+<!-- <div><img src="./images/me.jpg" class="logoImage"></div> -->
 <section class="hero">
 	<div class="small-container">
 		<h4>Sam Hewitt Web Development</h4>
@@ -17,14 +17,16 @@ navigation_weight: 1
 
 
 <section class="homeBlog">
-    {% for post in site.posts %}
     <ul>
-    <li><img src="{{post.image}}" class="postImage"/></li>
-    <li>{{post.title}}</li>     
-    <li>{{post.date}}</li> 
-    <li>{{post.excerpt}}</li> 
-    <a href="{{ post.url }}" class="button"><span>Read more</span></a>
-    </ul>
+    {% for post in site.posts %}
+    <br>
+    <li><h2>{{post.title}}</h2>
+    <img src="{{post.image}}" class="postImage"/>
+    <h4>{{post.date}}</h4>
+    <p class="excerptClass">{{post.excerpt}}</p>
+    <a href="{{ post.url }}" class="button"><span>Read more</span></a> 
+    </li>
     <br>
     {% endfor %}    
+</ul>
 </section>    
