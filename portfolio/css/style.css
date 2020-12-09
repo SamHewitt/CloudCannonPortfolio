@@ -45,6 +45,7 @@ div.small-container {
   margin: 0 auto;
   text-align: center;
   border-radius: 5px;
+  max-width: 700px;
 }
 
 div.small-container {
@@ -133,3 +134,7 @@ div.small-container {
     color: black;
     
   }
+
+.excerptClass {
+    max-width: 200px;
+}
