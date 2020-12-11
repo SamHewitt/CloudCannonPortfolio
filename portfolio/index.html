@@ -13,7 +13,7 @@ navigation_weight: 1
     <li><h2>{{post.title}}</h2>
     <img src="{{post.image}}" class="postImage"/>
     <h4>{{post.date}}</h4>
-    <p class="excerptClass">{{post.excerpt}}</p>
+    <p class="excerptClass">{{post.excerpt | truncate: 200}}</p>
     <a href="{{ post.url }}" class="button"><span>Read more</span></a> 
     </li>
     <br>
