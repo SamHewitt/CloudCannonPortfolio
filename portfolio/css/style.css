@@ -178,8 +178,8 @@ footer {
 @media only screen and (max-width: 768px) {
 
   .sitePic {
-    height: 100%;
-    width: 100%;
+    height: 120%;
+    width: 120%;
     border-radius: 5%;
 }
 .homeBlog {
@@ -188,6 +188,7 @@ footer {
   max-width: 70%;
   padding-left: 0.2%;
   font-size: small;
+  padding-bottom: 10%;
   
 }
 .readMore {
@@ -199,15 +200,27 @@ footer {
   padding-right: 15%;
 }
 nav.main-nav ul {
-	margin: 10;
-	padding: 10;
+
 	list-style: none;
   float: center;
   color: #000000;
   background-color: #ffffff;
   text-decoration: none;
+  padding-left: 5%;
 
 }
+nav.main-nav li,
+nav.main-nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.main-nav {
+  font-size: small;
+  padding-right: 25%;
+  height: 3%;
+}
+
 .button {
   text-decoration: none;
   display: inline-block;
@@ -259,18 +272,22 @@ nav.main-nav ul {
 }
 footer {
   font-size: medium;
+  padding-top: 25%;
 }
 a.active {
   color: #44b4d6;
   font-size: small;
 }
-.main-nav {
-  font-size: small;
-  padding-left: 0;
-}
+
 .sidebar-text {
-  font-size: small;
+  font-size: 50%;
   padding: 5%;
+  overflow-wrap: normal;
+}
+.sidebar {
+
+  padding-right: 40%;
+
 }
 .about-text {
   font-size: medium;
@@ -278,6 +295,7 @@ a.active {
   justify-content: center;
   text-align: center;
   display: block;
-  padding-left: 15%;
+  padding-left: 25%;
 }
+
 }
