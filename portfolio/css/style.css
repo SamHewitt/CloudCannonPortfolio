@@ -8,7 +8,9 @@ nav.main-nav ul {
     text-decoration: none;
 
 }
-
+hr {
+  width: 50%;
+}
 nav.main-nav li,
 nav.main-nav a {
     display: inline-block;
@@ -167,10 +169,16 @@ footer {
   padding-top: 20%;
   padding-bottom: 0.5%;
 }
-.about {
-  padding-bottom: 20%;
-  width: 15px;
+.collection {
+  padding-right: 5%;
+  width: 25%;
 }
+.about {
+  padding-bottom: 15%;
+  width: 15px;
+ 
+}
+
 .emailLink {
   text-decoration: none;
   color: #000000;
@@ -314,6 +322,7 @@ footer {
   font-size: small;
   padding-top: 25%;
 }
+
 a.active {
   color: #44b4d6;
   font-size: small;
@@ -332,7 +341,7 @@ a.active {
 }
 .about-text {
   font-size: medium;
-  max-width: 50%;
+  max-width: 25%;
   justify-content: center;
   text-align: center;
   display: block;

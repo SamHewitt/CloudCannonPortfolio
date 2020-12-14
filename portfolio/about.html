@@ -3,8 +3,24 @@ layout: default
 title: About
 navigation_weight: 3
 ---
+<!-- <section class="collection">
+<ul class="about">
+    {% for person in site.about %}
+      <li>
+        <img src="{{ person.image }}" alt="{{ person.name }}" width="500%">
+        <p>
+          <a href="{{ person.url }}">
+              <h4>{{ person.name }}</h4>
+              <h4>{{ person.phone }}</h4>
+            <strong>{{ person.credentials }}</strong>
+          </a>
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+</section> --> 
 <section class="hero">
-	<div class="small-container">
+	<div class="small-container"> 
 
 <p class="about-text">Hi
     Im a New Zealand based freelance web developer. I also work part-time at CloudCannon as a Support Engineer.
@@ -20,17 +36,3 @@ navigation_weight: 3
 </div>
 </section>
 
-<ul class="about">
-    {% for person in site.about %}
-      <li>
-        <img src="{{ person.image }}" alt="{{ person.name }}" width="500%">
-        <p>
-          <a href="{{ person.url }}">
-              <h4>{{ person.name }}</h4>
-              <h4>{{ person.phone }}</h4>
-            <strong>{{ person.credentials }}</strong>
-          </a>
-        </p>
-      </li>
-    {% endfor %}
-  </ul>
