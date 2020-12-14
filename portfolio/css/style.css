@@ -8,7 +8,9 @@ nav.main-nav ul {
     text-decoration: none;
 
 }
-
+hr {
+  width: 50%;
+}
 nav.main-nav li,
 nav.main-nav a {
     display: inline-block;
@@ -20,7 +22,7 @@ nav.main-nav li a {
 }
 
 a.active {
-    color: #44b4d6;
+    color: #91e5ff;
   }
 
 body {
@@ -71,6 +73,8 @@ div.small-container {
     margin-right: auto;
     max-width: 40%;
     padding-left: 25%;
+    /* background-color: rgb(158, 158, 158);
+    border-radius: 10px; */
     
 }
 
@@ -154,10 +158,10 @@ div.small-container {
     height: 50%;
     width: 50%;
     border-radius: 5%;
+
 }
 
 footer {
-
   left: 0;
   bottom: 0;
   width: 100%;
@@ -166,6 +170,15 @@ footer {
   text-align: center;
   padding-top: 20%;
   padding-bottom: 0.5%;
+}
+.collection {
+  padding-right: 5%;
+  width: 25%;
+}
+.about {
+  padding-bottom: 15%;
+  width: 15px;
+ 
 }
 
 .emailLink {
@@ -311,6 +324,7 @@ footer {
   font-size: small;
   padding-top: 25%;
 }
+
 a.active {
   color: #44b4d6;
   font-size: small;
@@ -323,13 +337,11 @@ a.active {
  
 }
 .sidebar {
-
-  padding-right: 40%;
-
+  padding-left: 15%;
 }
 .about-text {
   font-size: medium;
-  max-width: 50%;
+  max-width: 25%;
   justify-content: center;
   text-align: center;
   display: block;
