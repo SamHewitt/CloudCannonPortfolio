@@ -167,7 +167,10 @@ footer {
   padding-top: 20%;
   padding-bottom: 0.5%;
 }
-
+.about {
+  padding-bottom: 20%;
+  width: 15px;
+}
 .emailLink {
   text-decoration: none;
   color: #000000;

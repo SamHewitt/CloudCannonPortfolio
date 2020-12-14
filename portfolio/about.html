@@ -22,11 +22,13 @@ navigation_weight: 3
 
 <ul class="about">
     {% for person in site.about %}
-      <li class="small-container">
-        <img src="{{ person.image }}" alt="{{ person.name }}">
+      <li>
+        <img src="{{ person.image }}" alt="{{ person.name }}" width="500%">
         <p>
           <a href="{{ person.url }}">
-            {{ person.name }} - <strong>{{ person.credentials }}</strong>
+              <h4>{{ person.name }}</h4>
+              <h4>{{ person.phone }}</h4>
+            <strong>{{ person.credentials }}</strong>
           </a>
         </p>
       </li>
