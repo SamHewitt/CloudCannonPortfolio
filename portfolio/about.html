@@ -19,3 +19,16 @@ navigation_weight: 3
 </p>
 </div>
 </section>
+
+<ul class="about">
+    {% for person in site.about %}
+      <li class="small-container">
+        <img src="{{ person.image }}" alt="{{ person.name }}">
+        <p>
+          <a href="{{ person.url }}">
+            {{ person.name }} - <strong>{{ person.credentials }}</strong>
+          </a>
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
