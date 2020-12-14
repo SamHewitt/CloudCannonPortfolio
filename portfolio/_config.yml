@@ -43,6 +43,10 @@ defaults:
       type: "about"
     values:
       layout: "default"
+
+_editable_regions:
+  image:
+    url_src: true      
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
