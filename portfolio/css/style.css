@@ -1,3 +1,13 @@
+.inner-content {
+
+  width: 55%;
+
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 8px 10px #888888;
+
+}
+
 nav.main-nav ul {
 	margin: 20;
 	padding: 20;
@@ -6,23 +16,32 @@ nav.main-nav ul {
     color: #000000;
     background-color: #ffffff;
     text-decoration: none;
+    border-radius: 5px;
+    
 
 }
 hr {
   width: 50%;
 }
+
+.blog-hr {
+  width: 100%;
+}
 nav.main-nav li,
 nav.main-nav a {
     display: inline-block;
     text-decoration: none;
+
 }
 
 nav.main-nav li a {
-	padding: 20px;
+  padding: 20px;
+
 }
 
 a.active {
-    color: #91e5ff;
+    color: #2f00ff;
+   
   }
 
 body {
@@ -31,7 +50,7 @@ body {
     margin: 0;
     font-size: 20px;
     color: #000000;
-    background-color: #ffffff;
+    background-color:rgb(136, 136, 136, 0.6);
 
     
 }  
@@ -73,8 +92,8 @@ div.small-container {
     margin-right: auto;
     max-width: 40%;
     padding-left: 25%;
-    /* background-color: rgb(158, 158, 158);
-    border-radius: 10px; */
+
+
     
 }
 
@@ -178,6 +197,7 @@ footer {
 .about {
   padding-bottom: 15%;
   width: 15px;
+
  
 }
 
@@ -206,6 +226,7 @@ footer {
   margin: 5px 0 10px 0;
   width: 50%;
   height: 25px;
+  border-radius: 5px;
 
 }
 #InputMessage {
@@ -214,18 +235,37 @@ footer {
   width: 100%;
   height: 100px;
   text-indent: 5%;
+  border-radius: 5px;
 
 }
 #InputEmail1 {
   margin: 5px 0 10px 0;
   width: 50%;
   height: 25px;
+  border-radius: 5px;
 }
 .hero{
   padding: 2%;
 }
   /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ For mobile phones: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  */
 @media only screen and (max-width: 768px) {
+
+  .inner-content {
+
+    width: 100%;
+    background-color: #ffffff;
+
+  }
+  body {
+    background-color: #ffffff;
+  }
+  .contact-form {
+    font-size: small;
+    padding-left: 20%;
+   
+  }
+ 
+
 
   .sitePic {
     height: 120%;
