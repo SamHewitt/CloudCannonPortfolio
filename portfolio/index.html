@@ -4,24 +4,23 @@ title: Home
 navigation_weight: 1
 ---
 
-
-
 <section class="homeBlog">
     <ul>
     {% for post in site.posts %}
-    <br>
+    <br />
     <li><h2>{{post.title}}</h2>
-    <img src="{{post.image}}" class="postImage"/>
+    <img src="{{post.image}}" class="postImage" />
     <h4>{{post.date}}</h4>
     <p class="excerptClass">{{post.excerpt | truncate: 200}}</p>
     <a href="{{ post.url }}" class="button"><span>Read more</span></a> 
     </li>
-    <hr class="blog-hr">
-    <br>
+    <hr class="blog-hr" />
+    <br />
     {% endfor %}    
     </ul>
 
 </section>    
 <div class="content editable">
-<a href="./contact.html" class="content editable"><img src="/images/placeholder.jpg" ></a>
+    <p>&nbsp;</p>
+    <p><a class="content" href="/contact.html"><img src="/images/placeholder.jpg" width="512" height="384" /></a></p>
 </div>
