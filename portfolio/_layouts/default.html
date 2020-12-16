@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sam Hewitt</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Mulish:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Mulish:wght@200&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
     <div class="inner-content">
     <section class="sidebar">
         <div class="content editable">
-        <div><img src="/images/me.png" class="sitePic"></div>
+            <div><img class="sitePic" src="/images/siteLogo.png" width="1185" height="1273" /></div>
         </div>
         <div class="sidebar-text">
 
@@ -26,7 +26,7 @@
         </div>
           </section>
 
-    </section>
+    
 
         <nav class="main-nav">
             <ul>
@@ -34,7 +34,7 @@
                 {% for p in navigation_pages %}
                     {% if p.navigation_weight %}
                         <li>
-                            <a href="{{ p.url }}"{% if p.url == page.url %}class="active"{% endif %}>
+                            <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
                                 {{ p.title }}
                             </a>
                         </li>
@@ -43,7 +43,7 @@
             </ul>
         </nav>
    
-</header>
+
 
 
 <div class="content">
