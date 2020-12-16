@@ -7,15 +7,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Mulish:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
-
-<!-- social media style -->
-
 </head>
 <body>
+    <div class="inner-content">
     <section class="sidebar">
+        <div class="content editable">
         <div><img src="/images/me.png" class="sitePic"></div>
+        </div>
         <div class="sidebar-text">
-        <strong>Sam Hewitt</strong>
+
+   
+        <strong>{{site.data.site-name.name}}</strong>
+    
+
         <h4>A web developer with a passion for excellence</h4>
         </div>
         <div>
@@ -23,7 +27,7 @@
           </section>
 
     </section>
-    <div class="container">
+
         <nav class="main-nav">
             <ul>
                 {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
@@ -38,11 +42,14 @@
                 {% endfor %}
             </ul>
         </nav>
-    </div>
+   
 </header>
+
+
 <div class="content">
     {{ content }}
 </div>
   {% include footer.html %}
+</div>
 </body>
 </html>

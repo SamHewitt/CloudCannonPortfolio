@@ -1,29 +1,52 @@
+.inner-content {
+  width: 52%;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow:  10px 8px 10px #888888;
+
+}
+.main-nav {
+  width: 100%;
+  display: block;
+  color:#ffffff;
+  
+}
 nav.main-nav ul {
 	margin: 20;
 	padding: 20;
 	list-style: none;
     float: center;
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
     text-decoration: none;
 
 }
+
 hr {
   width: 50%;
+}
+
+.blog-hr {
+  width: 100%;
 }
 nav.main-nav li,
 nav.main-nav a {
     display: inline-block;
     text-decoration: none;
+
 }
 
 nav.main-nav li a {
-	padding: 20px;
+  padding: 25px;
+
 }
 
 a.active {
-    color: #91e5ff;
+    color: #000000;
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
   }
+
 
 body {
     font-family: 'Mulish', sans-serif;
@@ -31,13 +54,13 @@ body {
     margin: 0;
     font-size: 20px;
     color: #000000;
-    background-color: #ffffff;
+    background-color:rgb(136, 136, 136, 0.6);
 
     
 }  
 
 a {
-	color: #000000;
+	color: #ffffff;
 }
 
 
@@ -59,6 +82,7 @@ div.small-container {
   }
    .sidebar{
        justify-content: flex-end;
+
    }
 
 .logoImage {
@@ -73,8 +97,8 @@ div.small-container {
     margin-right: auto;
     max-width: 40%;
     padding-left: 25%;
-    /* background-color: rgb(158, 158, 158);
-    border-radius: 10px; */
+
+
     
 }
 
@@ -178,6 +202,7 @@ footer {
 .about {
   padding-bottom: 15%;
   width: 15px;
+
  
 }
 
@@ -199,13 +224,14 @@ footer {
   cursor: pointer;
 }
 .contact-form {
-  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 8px 10px #888888;
   padding: 5%;
 }
 #InputName {
   margin: 5px 0 10px 0;
   width: 50%;
   height: 25px;
+  border-radius: 5px;
 
 }
 #InputMessage {
@@ -214,18 +240,41 @@ footer {
   width: 100%;
   height: 100px;
   text-indent: 5%;
+  border-radius: 5px;
 
 }
 #InputEmail1 {
   margin: 5px 0 10px 0;
   width: 50%;
   height: 25px;
+  border-radius: 5px;
 }
 .hero{
   padding: 2%;
 }
   /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ For mobile phones: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  */
 @media only screen and (max-width: 768px) {
+
+  .inner-content {
+
+    width: 100%;
+    background-color: #ffffff;
+
+  }
+  body {
+    background-color: #ffffff;
+  }
+  .contact-form {
+    font-size: small;
+    padding-left: 20%;
+   
+  }
+  a.active {
+    color: #ffffff;
+    
+    background-color: rgb(0, 0, 0);
+  }
+
 
   .sitePic {
     height: 120%;
@@ -239,6 +288,8 @@ footer {
   padding-left: 0.2%;
   font-size: small;
   padding-bottom: 10%;
+
+
   
 }
 .readMore {
@@ -254,10 +305,17 @@ nav.main-nav ul {
 	list-style: none;
   float: center;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #000000;
   text-decoration: none;
-  padding-left: 5%;
+  padding-left: 1%;
 
+}
+.main-nav {
+  width: 5%;
+  display: block;
+  background-color: #000000;
+  color:#ffffff;
+  
 }
 nav.main-nav li,
 nav.main-nav a {
@@ -326,12 +384,12 @@ footer {
 }
 
 a.active {
-  color: #44b4d6;
+  color: #ffffff;
   font-size: small;
 }
 
 .sidebar-text {
-  font-size: 50%;
+  font-size: 100%;
   padding: 5%;
   overflow-wrap: normal;
  
@@ -349,7 +407,7 @@ a.active {
 }
 
 }
-/*                      ipad pro                        */
+/*                      ipad                         */
 @media only screen and (max-width: 1024px) {
 .contact-form {
   padding-right: 25%;
@@ -358,5 +416,26 @@ a.active {
 
 .sidebar {
   padding-right: 6%;
+  font-size: larger;
 }
+.main-nav {
+  width: 15%;
+}
+ }
+
+ /*                 ipad pro                     */
+ @media only screen and (max-width: 1366px) {
+  .sidebar {
+    padding-right: 6%;
+    font-size: medium;
+  }
+  .inner-content {
+    width: 100%;
+    height: 100%;
+  }
+  a.active {
+    color: #ffffff;
+    text-decoration: underline;
+    background-color: rgb(0, 0, 0);
+  }
  }
