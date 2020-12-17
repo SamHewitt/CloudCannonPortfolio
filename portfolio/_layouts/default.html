@@ -9,22 +9,9 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+
+
     <div class="inner-content">
-    <section class="sidebar">
-        <div class="content editable">
-        <div><img src="/images/me.png" class="sitePic"></div>
-        </div>
-        <div class="sidebar-text">
-
-   
-        <strong>{{site.data.site-name.name}}</strong>
-    
-
-        <h4>A web developer with a passion for excellence</h4>
-        </div>
-        <div>
-        </div>
-          </section>
 
     </section>
 
@@ -42,9 +29,25 @@
                 {% endfor %}
             </ul>
         </nav>
-   
+        <div class="content editable">
+            <img src="./images/banner2.png" class="banner">
+        </div>
 </header>
+<section class="sidebar">
+    <div class="content editable">
+    <div><img src="/images/me.png" class="sitePic"></div>
+    </div>
+    <div class="sidebar-text">
 
+
+    <strong>{{site.data.site-name.name}}</strong>
+
+
+    <h4 class="content-editable">A web developer with a passion for excellence</h4>
+    </div>
+    <div>
+    </div>
+      </section>
 
 <div class="content">
     {{ content }}
