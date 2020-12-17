@@ -5,15 +5,41 @@
   box-shadow:  10px 8px 10px #888888;
 
 }
+.banner {
+  width: 100%;
+
+}
+.banner-container {
+  position: relative;
+  text-align: center;
+
+}
+.banner-text-heading {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .main-nav {
   width: 100%;
   display: block;
   color:#ffffff;
   
 }
+
+ul {
+  margin: 0px;
+}
 nav.main-nav ul {
-	margin: 20;
-	padding: 20;
+
+
 	list-style: none;
     float: center;
     color: #ffffff;
@@ -259,7 +285,11 @@ footer {
 
     width: 100%;
     background-color: #ffffff;
+    box-shadow: none;
 
+  }
+  .banner {
+    width: 0%;
   }
   body {
     background-color: #ffffff;
@@ -267,6 +297,7 @@ footer {
   .contact-form {
     font-size: small;
     padding-left: 20%;
+    box-shadow: none;
    
   }
   a.active {
@@ -325,7 +356,7 @@ nav.main-nav a {
 
 .main-nav {
   font-size: small;
-  padding-right: 25%;
+  padding-right: 15%;
   height: 3%;
 }
 
