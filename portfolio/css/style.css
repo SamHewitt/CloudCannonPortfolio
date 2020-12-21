@@ -1,3 +1,69 @@
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+
+
+
+
 .inner-content {
   width: 52%;
   margin: auto;
@@ -5,10 +71,18 @@
   box-shadow:  10px 8px 10px #888888;
 
 }
+
+.portfolio-text {
+  text-align: center;
+  font-size: larger;
+}
+
+
 .banner {
   width: 100%;
 
 }
+
 .banner-container {
   position: relative;
   text-align: center;
@@ -63,7 +137,7 @@ nav.main-nav a {
 }
 
 nav.main-nav li a {
-  padding: 25px;
+  padding: 22px;
 
 }
 
@@ -81,8 +155,9 @@ body {
     font-size: 20px;
     color: #000000;
     background-color:rgb(136, 136, 136, 0.6);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 
-    
 }  
 
 a {
@@ -123,9 +198,6 @@ div.small-container {
     margin-right: auto;
     max-width: 40%;
     padding-left: 25%;
-
-
-    
 }
 
 .readMore {
@@ -196,7 +268,7 @@ div.small-container {
 }
 
 .sidebar {
-    float: right;
+    float: left;
     padding:10px; 
     overflow:hidden;
     width: 20%;
@@ -289,7 +361,13 @@ footer {
 
   }
   .banner {
-    width: 0%;
+   display: none;
+  }
+  .banner-text-heading {
+    display: none;
+  }
+  .banner-text {
+    display: none;
   }
   body {
     background-color: #ffffff;
@@ -308,10 +386,12 @@ footer {
 
 
   .sitePic {
-    height: 120%;
-    width: 120%;
-    border-radius: 5%;
+    display: none;
 }
+
+
+
+
 .homeBlog {
   display: block;
   margin-right: auto;
@@ -440,18 +520,15 @@ a.active {
 }
 /*                      ipad                         */
 @media only screen and (max-width: 1024px) {
-.contact-form {
-  padding-right: 25%;
-  border: none;
-}
-
 .sidebar {
   padding-right: 6%;
   font-size: larger;
 }
-.main-nav {
-  width: 15%;
+.inner-content {
+  width: 100%;
+  height: 100%;
 }
+
  }
 
  /*                 ipad pro                     */
