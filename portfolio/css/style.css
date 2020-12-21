@@ -5,10 +5,15 @@
   box-shadow:  10px 8px 10px #888888;
 
 }
+
+
+
+
 .banner {
   width: 100%;
 
 }
+
 .banner-container {
   position: relative;
   text-align: center;
@@ -63,7 +68,7 @@ nav.main-nav a {
 }
 
 nav.main-nav li a {
-  padding: 25px;
+  padding: 22px;
 
 }
 
@@ -81,8 +86,9 @@ body {
     font-size: 20px;
     color: #000000;
     background-color:rgb(136, 136, 136, 0.6);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 
-    
 }  
 
 a {
@@ -123,9 +129,6 @@ div.small-container {
     margin-right: auto;
     max-width: 40%;
     padding-left: 25%;
-
-
-    
 }
 
 .readMore {
@@ -196,7 +199,7 @@ div.small-container {
 }
 
 .sidebar {
-    float: right;
+    float: left;
     padding:10px; 
     overflow:hidden;
     width: 20%;
@@ -289,7 +292,13 @@ footer {
 
   }
   .banner {
-    width: 0%;
+   display: none;
+  }
+  .banner-text-heading {
+    display: none;
+  }
+  .banner-text {
+    display: none;
   }
   body {
     background-color: #ffffff;
@@ -308,10 +317,12 @@ footer {
 
 
   .sitePic {
-    height: 120%;
-    width: 120%;
-    border-radius: 5%;
+    display: none;
 }
+
+
+
+
 .homeBlog {
   display: block;
   margin-right: auto;
@@ -440,18 +451,15 @@ a.active {
 }
 /*                      ipad                         */
 @media only screen and (max-width: 1024px) {
-.contact-form {
-  padding-right: 25%;
-  border: none;
-}
-
 .sidebar {
   padding-right: 6%;
   font-size: larger;
 }
-.main-nav {
-  width: 15%;
+.inner-content {
+  width: 100%;
+  height: 100%;
 }
+
  }
 
  /*                 ipad pro                     */
