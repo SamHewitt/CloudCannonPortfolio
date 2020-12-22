@@ -11,7 +11,7 @@
   width: 300px;
   height: 300px;
   border-radius: 40px;
-box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
   cursor: pointer;
   transition: 0.4s;
 }
@@ -68,7 +68,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   width: 52%;
   margin: auto;
   background-color: #ffffff;
-  box-shadow:  10px 8px 10px #1d42e4;
+  box-shadow:  10px 8px 10px #6648ec;
 
 }
 
@@ -447,7 +447,6 @@ nav.main-nav a {
 
 .main-nav {
   font-size: small;
-  padding-right: 15%;
   height: 3%;
 }
 
@@ -539,6 +538,13 @@ a.active {
   width: 100%;
   height: 100%;
 }
+.main-nav {
+  width: 85%;
+  display: block;
+  background-color: #000000;
+  color:#ffffff;
+  
+}
 
  }
 
@@ -548,13 +554,24 @@ a.active {
     padding-right: 6%;
     font-size: medium;
   }
+  body {
+    padding: 0%;
+  }
   .inner-content {
     width: 100%;
     height: 100%;
+
   }
   a.active {
     color: #ffffff;
     text-decoration: underline;
     background-color: rgb(0, 0, 0);
+  }
+  .main-nav {
+    width: 100%;
+    display: block;
+    background-color: #000000;
+    color:#ffffff;
+
   }
  }
