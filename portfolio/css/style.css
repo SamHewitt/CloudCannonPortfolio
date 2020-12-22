@@ -93,6 +93,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #ffffff;
 }
 .banner-text {
   position: absolute;
@@ -113,8 +114,7 @@ ul {
 }
 nav.main-nav ul {
 
-
-	list-style: none;
+	  list-style: none;
     float: center;
     color: #ffffff;
     background-color: #000000;
@@ -360,11 +360,17 @@ footer {
     box-shadow: none;
 
   }
+
+  body {
+   padding-top: 0px;
+  }
   .banner {
-   display: none;
+   width: 100%;
+
   }
   .banner-text-heading {
-    display: none;
+    width: 100%;
+    font-size: large;
   }
   .banner-text {
     display: none;
@@ -389,7 +395,11 @@ footer {
     display: none;
 }
 
+nav.main-nav li a {
+  padding: 10px;
 
+
+}
 
 
 .homeBlog {
@@ -422,7 +432,7 @@ nav.main-nav ul {
 
 }
 .main-nav {
-  width: 5%;
+  width: 100%;
   display: block;
   background-color: #000000;
   color:#ffffff;
@@ -509,8 +519,8 @@ a.active {
   padding-left: 15%;
 }
 .about-text {
-  font-size: medium;
-  max-width: 25%;
+  font-size: larger;
+  max-width: 30%;
   justify-content: center;
   text-align: center;
   display: block;
