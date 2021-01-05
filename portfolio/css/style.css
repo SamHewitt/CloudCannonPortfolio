@@ -5,7 +5,11 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.disqus-div {
+  width: 90%;
+  margin: auto;
 
+}
 .card {
   margin: 30px auto;
   width: 300px;
