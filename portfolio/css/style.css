@@ -393,16 +393,18 @@ footer {
   .what-i-do-title {
     justify-content: left;
     padding-left: 5%;
+    font-size: small;
   
   }
   .what-i-do {
     justify-content: left;
-    width: 40%;
+    width: 30%;
+    font-size: small;
     padding-left: 5%;
     float: left;
   }
   .what-i-do-img {
-    width: 80%;
+    width: 30%;
     float: left;
     padding-left: 5%;
   }
