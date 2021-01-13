@@ -5,11 +5,14 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+
 .disqus-div {
   width: 90%;
   margin: auto;
 
 }
+
 .card {
   margin: 30px auto;
   width: 300px;
@@ -141,10 +144,6 @@ nav.main-nav ul {
     background-color: #000000;
     text-decoration: none;
 
-}
-
-hr {
-  
 }
 
 .blog-hr {
@@ -441,7 +440,6 @@ nav.main-nav li a {
 
 }
 
-
 .homeBlog {
   display: block;
   margin-right: auto;
@@ -450,8 +448,6 @@ nav.main-nav li a {
   font-size: small;
   padding-bottom: 10%;
 
-
-  
 }
 .readMore {
   border-style: solid;
@@ -587,7 +583,7 @@ a.active {
 
  }
 
- /*                 ipad pro                     */
+ /*                 ipad pro                         */
  @media only screen and (max-width: 1366px) {
   .sidebar {
     padding-right: 6%;
