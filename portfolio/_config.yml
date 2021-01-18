@@ -58,6 +58,7 @@ defaults:
 
 toolbar: &my_awesome_toolbar
  image: true
+ embed: true
  link: true
  removeformat: true
  bold: true
