@@ -44,6 +44,11 @@ defaults:
     values:
       layout: "default"
 
+_options:
+  content:
+    embed: true
+
+
 _editable_regions:
   image:
     url_src: true      
