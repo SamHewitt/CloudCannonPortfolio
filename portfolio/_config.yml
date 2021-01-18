@@ -44,6 +44,45 @@ defaults:
     values:
       layout: "default"
 
+# # configuration for embedding videos
+# _options:
+#   content:
+#     bold: true  
+#     link: true
+#     embed: true
+#   contact_html: 
+#     bold: true  
+#     link: true
+#     embed: true
+
+
+toolbar: &my_awesome_toolbar
+ image: true
+ embed: true
+ link: true
+ removeformat: true
+ bold: true
+ italic: true
+ subscript: true
+ superscript: true
+ underline: true
+ code: true
+ indent: true
+ outdent: true
+_options:
+ content:
+  *my_awesome_toolbar
+ contact_html:
+  <<: *my_awesome_toolbar
+  undo: true
+  redo: true
+
+
+
+
+
+
+
 _editable_regions:
   image:
     url_src: true      
