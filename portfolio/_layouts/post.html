@@ -17,7 +17,7 @@ comments: true
     <div class="container">
         <h2 class="spacing">{{ page.title }}</h2> 
         <div class="blog-post spacing">
-            <p class="summary">{{ page.category }}<span class="date">{{ page.date | date_to_long_string }}</span></p>
+            <p class="summary">{{ page.category }}<span class="date">{{ page.date | date_to_string }}</span></p>
             {{ content }}
         </div>
     </div> 
