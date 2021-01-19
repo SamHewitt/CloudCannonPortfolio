@@ -90,7 +90,7 @@
   width: 52%;
   margin: auto;
   background-color: #ffffff;
-  box-shadow:  10px 8px 10px #6648ec;
+  box-shadow:  10px 8px 10px #bdbdbd;
 
 }
 
@@ -157,7 +157,7 @@ nav.main-nav a {
 }
 
 nav.main-nav li a {
-  padding: 22px;
+  padding: 15px;
 
 }
 
@@ -175,7 +175,7 @@ body {
     font-size: 20px;
     color: #000000;
     /* background-color:rgb(136, 136, 136, 0.6); */
-    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    background-image: radial-gradient(circle, #ececec 0%, #ececec 100%);
     padding-top: 0.5%;
     padding-bottom: 0.5%;
 
@@ -344,7 +344,7 @@ footer {
   cursor: pointer;
 }
 .contact-form {
-  box-shadow: 10px 10px 8px 10px #888888;
+  box-shadow: 8px 8px 6px 8px #888888;
   padding: 5%;
 }
 #InputName {
