@@ -6,7 +6,6 @@
   flex-wrap: wrap;
 }
 
-
 .disqus-div {
   width: 90%;
   margin: auto;
@@ -84,8 +83,6 @@
   }
 }
 
-
-
 .inner-content {
   width: 52%;
   margin: auto;
@@ -98,15 +95,10 @@
   text-align: center;
   font-size: 130%;
   /* font-family: "mulish"; */
-
-  
 }
-
 
 .banner {
   width: 100%;
- 
-
 }
 
 .banner-container {
