@@ -89,6 +89,7 @@
   }
 }
 
+
 .inner-content {
   width: 52%;
   margin: auto;
@@ -373,7 +374,7 @@ footer {
   padding: 2%;
 }
   /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ For mobile phones: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 776px) {
 
   .inner-content {
     width: 100%;
@@ -381,6 +382,8 @@ footer {
     box-shadow: none;
 
   }
+
+
 iframe{
   width: 100%;
 }
@@ -584,6 +587,10 @@ iframe{
   color:#ffffff;
   
 }
+
+.banner-text-heading {
+  font-size: larger;
+ }
 
  }
 
