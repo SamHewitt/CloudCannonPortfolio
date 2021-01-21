@@ -44,6 +44,15 @@ defaults:
     values:
       layout: "default"
 
+
+# Environments
+staging:
+  app_url: "https://spicy-sunshine.cloudvent.net/"
+  
+production:
+  app_url: "https://samhewitt.net/"  
+  
+  
 # # configuration for embedding videos
 # _options:
 #   content:
