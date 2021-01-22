@@ -64,6 +64,8 @@ production:
 #     link: true
 #     embed: true
 
+cloudcannon:
+  data: true
 
 toolbar: &my_awesome_toolbar
  image: true

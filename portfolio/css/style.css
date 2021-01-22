@@ -12,6 +12,12 @@
 
 }
 
+#togglemenu {display: none; cursor: pointer;}
+@media (max-width: 1000px) {
+    #togglemenu {display: block;}
+    #menu ul {display: none;}
+    .menuopen #menu ul {display: block;}
+}
 
 .environment-banner {
   background-color: red;
