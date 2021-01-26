@@ -1,3 +1,5 @@
+
+
 .cards-list {
   z-index: 0;
   width: 100%;
@@ -12,12 +14,8 @@
 
 }
 
-#togglemenu {display: none; cursor: pointer;}
-@media (max-width: 1000px) {
-    #togglemenu {display: block;}
-    #menu ul {display: none;}
-    .menuopen #menu ul {display: block;}
-}
+
+
 
 .environment-banner {
   background-color: red;
@@ -165,6 +163,7 @@ nav.main-nav a {
 
 nav.main-nav li a {
   padding: 15px;
+  color: #8a8a8a;
 
 }
 
