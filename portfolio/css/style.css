@@ -420,7 +420,7 @@ iframe{
 
   .banner-text-heading {
     width: 100%;
-    font-size: large;
+    height: auto;
   }
   .banner-text {
     display: none;
