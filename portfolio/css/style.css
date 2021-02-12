@@ -1,3 +1,5 @@
+
+
 .cards-list {
   z-index: 0;
   width: 100%;
@@ -11,6 +13,8 @@
   margin: auto;
 
 }
+
+
 
 
 .environment-banner {
@@ -159,6 +163,7 @@ nav.main-nav a {
 
 nav.main-nav li a {
   padding: 15px;
+  color: #8a8a8a;
 
 }
 
@@ -412,9 +417,10 @@ iframe{
     float: left;
     padding-left: 5%;
   }
+
   .banner-text-heading {
     width: 100%;
-    font-size: large;
+    height: auto;
   }
   .banner-text {
     display: none;
