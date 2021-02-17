@@ -1,0 +1,28 @@
+---
+layout: default
+title: Blog
+navigation_weight: 2
+permalink: /blog/
+---
+
+<section class="homeBlog">
+
+    <ul>
+    {% for post in site.posts %}
+   
+    <li><h2>{{post.title}}</h2>
+    <h4>{{post.date | date_to_long_string}}</h4>    
+    <img src="{{post.image}}" class="postImage"/>
+
+    
+    <p>{{post.excerpt | strip_html | truncate: 156}}</p>
+    
+    <a href="{{ post.url }}" class="button"><span>Read more</span></a> 
+    </li>
+    <!-- <hr class="blog-hr"> -->
+    <br>
+
+    {% endfor %}    
+</ul>
+
+</section>
